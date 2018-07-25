@@ -35,13 +35,13 @@ class plane(basePlane):
         basePlane.__init__(self,temp,210,700,"./feiji/hero1.png")
 
     def move_left(self):
-        self.x-=5
+        self.x-=10
     def move_right(self):
-        self.x+=5
+        self.x+=10
     def move_up(self):
-        self.y-=5
+        self.y-=10
     def move_down(self):
-        self.y+=5
+        self.y+=10
 
     def fire(self):
         self.allbullet.append(bullet(self.screen,self.x,self.y))

@@ -64,9 +64,9 @@ def main():
     trainingSet = []
     testSet = []
     split = 0.67
-    loadDataset('irisdata.txt', split, trainingset, testset)
-    print 'Train set: ' + repr(len(trainingSet))
-    print 'Test set: ' + repr(len(testSet))
+    loadDataset('irisdata.txt', split, trainingSet, testSet)
+    print ('Train set: ' + repr(len(trainingSet)))
+    print ('Test set: ' + repr(len(testSet)))
     #generate predictions
     predictions = []
     k = 3
